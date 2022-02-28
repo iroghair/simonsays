@@ -6,8 +6,8 @@ int RLED = 9;         //    Red LED connected to digital pin 9
 int GLED = 8;         //  Green LED connected to digital pin 8
 int BLED = 7;         //   Blue LED connected to digital pin 7
 int YLED = 6;         // Yellow LED connected to digital pin 6
-int ON_DELAY  = 1000; // Time that a LED is turned on [ms]
-int OFF_DELAY = 1000;    // Time that a LED is turned on [ms]
+int ON_DELAY  = 500; // Time that a LED is turned on [ms]
+int OFF_DELAY = 100;    // Time that a LED is turned on [ms]
 
 void setup() {
   // put your setup code here, to run once:
@@ -15,14 +15,9 @@ void setup() {
 }
 
 void loop() {
-
-    turnOn(RLED);
-    turnOn(GLED);
-    turnOn(BLED);
-    turnOn(YLED);
-    turnOffAll();
-    
-     
+    int rand_led = random(6,10);
+    turnOn(rand_led);
+    turnOffAll(); 
 }
 
 void turnOn(int led) {
