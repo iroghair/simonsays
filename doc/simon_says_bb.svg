@@ -6052,11 +6052,7 @@
   <text y="18.4" fill="#000000" x="8.8">Wire connections with input pins:</text>
  </g>
  <g fill="#000000" text-anchor="left" font-family="Droid Sans" stroke="none" font-size="9.6">
-<<<<<<< HEAD
   <text y="30.4" fill="#000000" x="8.8">{R,G,B,Y} buttons connect to {12,11,10,5}.</text>
-=======
-  <text y="30.4" fill="#000000" x="8.8">{R,G,B,Y} buttons connect to {12,11,1,5}.</text>
->>>>>>> 661e0a856037deca91bea2b2dbd58474e42164b1
  </g>
 </g>
 </g></g></svg>
