@@ -11,9 +11,9 @@ This classic game generates a random sequence of colors (red, green, blue, yello
 * Power supply (5V)
 * Electrical jump wires
 * 4 LEDs with different colors
-* 4 resistors to go with the LEDs (I used 2 x 330 $\Ohm$, 2 x 510 $\Ohm$), and 4 pull-down resistors for the INPUT pins (~10 k$\Ohm$)
+* 4 resistors to go with the LEDs (I used 2 x 330 Ω, 2 x 510 Ω), and 4 pull-down resistors for the INPUT pins (~10 kΩ)
 * 4 push buttons
 
 ## Breadboard layout
-The layout was made in Fritzing, and can be downloaded here.
+The layout was made in Fritzing, and can be downloaded [here](./doc/simon_says.fzz).
 ![Breadboard layout](./doc/simon_says_bb.svg)
