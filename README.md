@@ -17,4 +17,4 @@ This classic game generates a random sequence of colors (red, green, blue, yello
 ## Breadboard layout
 The layout was made in Fritzing, and can be downloaded here. 
 ![Breadboard layout](./doc/simon_says_bb.svg)
-<img src="./doc/simon_says_bb.svg">
+
